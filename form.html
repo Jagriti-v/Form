@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        .body{
+            padding : 12px;
+            border: 5px solid black;
+            background-color: rgb(46, 122, 82);
+        }
+        h1{
+            text-align: center;
+            font-size: 40px;
+            
+            padding: 10px 20px;
+            
+        }
+
+        .Text{
+            padding: 5px 20px 20px;
+            background-color: rgb(222, 229, 234);
+            
+        }
+        
+        input[ type="text"],input[ type="email"],input[ type="name"],input[ type="Gender"],input[ type="Phone number"],
+        select{
+            width: 100%;
+            padding: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Form</h1>
+    <hr>
+    <div class="Text">
+    <form action="">
+        <h2>Contact Information</h2>
+        <p>Name :<input type="text" name="name" required></p>
+        <p> 
+            Email :
+            <input type="email" name="email" id="email">
+
+        </p>
+        Gender :
+        <p>Male <input type="radio" name="gender" id="male"></p> <p>female <input type="radio" name="gender" id="female"></p>
+        <p>
+            Phone Number : 
+            <input type="Number" name="Number" id="Number">
+        </p>
+        <p>
+             Submit :<input type="submit" value="Submit now" >
+        </p>
+           <p >
+            Reset :<input type="reset" value="Reset now" ></p>
+    </form>
+    
+
+    </div>
+
+    <hr>
+</body>
+</html>
